@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    background-color: rgb(199, 214, 214);
+}
+
+img{
+    width: 500px;
+    border-radius: 10px;
+    height: 50vh;
+}
+.container>h1,p{
+    text-align: center;
+}
+
+.contents{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin:90px auto;
+    height: 50vh;
+}
+
+.txt-content{
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+button{
+    width: 167px;
+    padding: 20px;
+    border: none;
+    background-color: rgb(168, 168, 168);
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(170, 221, 230);
+    color: rgb(31, 73, 163);
+    transition: 1s;
+}
+
+li{
+    list-style: none;
+}
+.txt-head{
+    display: flex;
+}
+
+.active{
+    background-color: white;
+}
+#para{
+    line-height: 40px;
+    padding: 10px;
+    text-align: justify;
+}
+
+#heading{
+    padding: 20px;
+}
