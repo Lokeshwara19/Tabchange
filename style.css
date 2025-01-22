@@ -59,12 +59,16 @@ li{
 .active{
     background-color: white;
 }
-#para{
+#para-content{
     line-height: 40px;
     padding: 10px;
     text-align: justify;
 }
-
 #heading{
     padding: 20px;
 }
+
+
+
+
+
